@@ -11,11 +11,11 @@ $(document).ready(function(){
 //how do i make it reload only the h1/a div so it refreshes the options wihtout reloading?
 
             (function () {
-            var loupe;
-            loupe = document.querySelector('.loupe');
+            var xRay;
+            xRay = document.querySelector('.xRay');
             document.addEventListener('mousemove', function (ev) {
-            loupe.style.top = ev.clientY - 65 + 'px';
-            return loupe.style.left = ev.clientX - 65 + 'px';
+            xRay.style.top = ev.clientY - 65 + 'px';
+            return xRay.style.left = ev.clientX - 65 + 'px';
             });
             }.call(this));
 
