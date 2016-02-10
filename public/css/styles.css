@@ -5,7 +5,7 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.loupe {
+.xRay {
   position: absolute;
   background-color: #000;
   background-image: url("../assets/skeleton.gif");
